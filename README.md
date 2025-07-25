@@ -1,5 +1,5 @@
 # Getting Started
-A simple Java REST API for recording and retrieving money transactions — including deposits, withdrawals, current balance, and transaction history — using in-memory storage.
+A simple ledger API for recording and retrieving money transactions which includes deposits, withdrawals, current balance, and transaction history while using an in-memory storage.
 
 The following is required and must be installed to run this application on the system
 * Java 17 or later
