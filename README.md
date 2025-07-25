@@ -17,13 +17,17 @@ open your terminal and run below code one after the other to start the applicati
 Once the application starts running, below are the API endpoint to test 
 
 For deposit API
+
 `curl -X POST "http://localhost:8080/api/ledger/deposit?description=deposit1&amount=200"`
 
 For Withdraw API
+
 `curl -X POST "http://localhost:8080/api/ledger/withdraw?description=withdraw1&amount=100"`
 
 For Balance API
+
 `curl "http://localhost:8080/api/ledger/balance"`
 
 For Transaction History
+
 `curl "http://localhost:8080/api/ledger/transactions"`
